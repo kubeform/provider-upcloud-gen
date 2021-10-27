@@ -42,6 +42,7 @@ func main() {
 		ProviderNameOriginal: "upcloud",
 		ProviderData:         upcloud.Provider(),
 		ProviderImportPath:   "github.com/UpCloudLtd/terraform-provider-upcloud/upcloud",
+		ProviderConfig:       "UpCloudLtd/upcloud",
 		Version:              "v1alpha1",
 		APIsPath:             apisPath,
 		ControllerPath:       controllerPath,
